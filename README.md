@@ -1,13 +1,10 @@
-# dY | TVS Credit Financial Copilot
-
-Reimagined version of the hackathon-winning prototype that blends financial analytics, hyper-personalised loan guidance, and contract intelligence into a single Streamlit experience.
+We built a financial copilot that simplifies money management—tracking expenses, comparing loans, and decoding contracts. Its intuitive AI-powered design won us the TVS Credit E.P.I.C 6.0 IT Challenge (2024) by showing how tech can truly empower customers.
 
 ## Highlights
-- **Financial Insights** - interactive dashboard powered by personal expense data with a GPT coach on tap.
-- **Loan Assistant** - combines persona context, product catalogue, EMI calculator, and explainer videos.
-- **Contract Intelligence** - anonymise uploaded agreements and interrogate them safely with AI.
+- **Financial Insights** - interactive dashboard powered by personal expense data with a personalized coach on tap.
+- **Loan Assistant** - combines persona context, product catalogue, EMI calculator, and provides helpful explainer videos.
+- **Contract Intelligence** - anonymise uploaded agreements and query them to dig into it and get more details.
 - **Persona Builder** - lightweight intake wizard that exports profiles for reuse across modules.
-- **Clean repo layout** - notebooks, data samples, scripts, and legacy snapshots organised for GitHub.
 
 ## Repo layout
 ```
@@ -29,8 +26,6 @@ requirements.txt
 README.md
 ```
 
-> The compressed archives from the original submission remain in the root for provenance. Feel free to drop them before pushing to GitHub.
-
 ## Getting started
 1. **Create an environment**
    ```bash
@@ -50,7 +45,7 @@ README.md
 
 ## Module guide
 - **Financial Insights** (`financial_dashboard.py`)
-  - Cleans `data/raw/personal_finance_transactions.xlsx`, builds Plotly visualisations, and pipes curated context to GPT.
+  - Cleans `data/raw/personal_finance_transactions.xlsx`, builds Plotly visualisations, and can launch a personalized financial coach to talk to.
   - Recent transaction table sourced from `data/raw/bank_statement_sample.xlsx`.
 - **Loan Assistant** (`loan_assistant.py`)
   - Works with sample persona and catalogue text in `data/reference`. Replace these with live exports for demos.
@@ -75,11 +70,12 @@ README.md
   This requires `OPENAI_API_KEY` and internet access.
 
 ## Optional extensions
-- Voice and text-to-speech capabilities from the original build are available in `legacy/scripts/preloan.py`. They can be ported back by installing `SpeechRecognition`, `gTTS`, `deep-translator`, and `pycountry`, then wiring them into the new layout.
+- Voice and text-to-speech capabilities from the original build are available in `legacy/scripts/preloan.py`. They can be ported back by installing `SpeechRecognition`, `gTTS`, `deep-translator`, and `pycountry`.
 
 ## Next steps
 - Replace the sample data with sanitised analytics from production-like sources.
 - Add regression tests for the analytics layer (`src/dy_finassist/utils/analytics.py`).
-- Spin up a GitHub Action to lint and deploy the Streamlit app automatically.
 
-Happy shipping! :rocket:
+## Contributors
+@SayliJain
+
