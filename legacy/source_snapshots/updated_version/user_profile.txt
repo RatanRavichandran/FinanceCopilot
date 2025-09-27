@@ -1,0 +1,30 @@
+User Profile:
+repayment_option: Fixed Installments
+location: goa
+insurance_option: Yes
+credit_history: Yes
+collateral_available: Yes
+existing_loans: Yes
+marital_status: Single
+employment_status: Employed
+loan_amount: 500000
+age: 25
+repayment_tenure: Less than 1 year
+FormSubmitter:review_form-Confirm and Submit: True
+interest_rate_sensitivity: Medium
+loan_purpose_details: Purchasing a Vehicle
+gender: Male
+variable_interest: Yes
+loan_type: Two-Wheeler Loan
+employment_type: Salaried
+urgency_level: Immediately
+income_range: Below ₹25,000
+
+Detailed Profile:
+The customer is a 25-year-old single, salaried male residing in Goa. He is currently employed and has an income range of below ₹25,000 per month. 
+
+He is seeking a Two-Wheeler Loan for the purpose of purchasing a vehicle. The loan amount requested is ₹5,00,000 which he plans to repay in less than 1 year through fixed installments. He is open to variable interest rates and has a medium sensitivity towards interest rates. 
+
+The customer has a credit history, and has collateral available for securing the loan, which indicates a relatively low risk profile. He has existing loans in his name, which needs to be considered while evaluating his repayment ability. 
+
+He also has opted for insurance, showing a sense of responsibility towards loan repayment and risk mitigation. His urgency level is immediate, showing his readiness to proceed with the loan process.
