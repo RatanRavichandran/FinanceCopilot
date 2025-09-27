@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+.env
+.env.*
+
+# Streamlit
+.streamlit/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Generated artefacts
+*.db
+*.log
+*.sqlite
+
+# Cache
+.cache/
+.ipynb_checkpoints/
